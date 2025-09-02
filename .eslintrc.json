@@ -1,0 +1,12 @@
+{
+  "env": { "browser": true, "es2023": true },
+  "extends": ["standard"],
+  "parserOptions": { "ecmaVersion": 2023, "sourceType": "module" },
+  "rules": {
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "no-console": "off",
+    "semi": ["error", "always"]
+  }
+}
+
+
